@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Números Aleatório</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ATRIBUTO DEFER: CARREGA O SCRIPT DEPOIS DO SITE. -->
+    <script defer src="numeros.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Sorteador de Números Aleatórios</h1>
+    </header>
+    
+    <main>
+
+        <section class="seletor-intervalo">
+
+            <label for="sliderMin">Valor mínimo: <span id="valorMin"></span></label>
+            <input type="range" id="sliderMin" min="1" max="100" value="1">
+
+            <label for="sliderMax">Valor máximo: <span id="valorMax"></span></label>
+            <input type="range" id="sliderMax" min="1" max="100" value="100">
+
+        </section>
+
+        <section class="area-sorteio">
+
+            <button id="botaoSortear">Sortear</button>
+            <span id="numeroSorteado">0</span>
+
+        </section>
+
+        <section class="historico">
+
+            <h2>Histórico</h2>
+            <ul id="listaNumeros"></ul>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <button id="botaoLimparHistorico">Limpar Histórico</button>
+    </footer>
+</body>
+</html>

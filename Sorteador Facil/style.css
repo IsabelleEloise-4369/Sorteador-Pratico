@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+body{
+    background-color: #ffa7fc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    border: 3px dashed #8b0086;
+    border-radius: 100px;
+    width: 50%;
+    height: 20%;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 50%;
+    height: 60%;
+    background-color: rgb(166, 0, 149);
+    border-radius: 100px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    border: 3px dashed white;
+    
+}
+
+h1{
+    color: rgb(218, 13, 190);
+}
+
+.seletor-intervalo{
+    margin: 0px 0px 40px 0px;
+
+}
+
+.area-sorteio{
+    margin: 0px 0px 20px 0px;
+}
+
+
+.area-sorteio button{
+    margin: 0px 40px 0px 0px;
+}
+
+.area-sorteio span{
+    color: rgb(237, 38, 255);
+    background-color: rgb(251, 255, 0);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.historico ul li{
+    background-color: rgb(251, 255, 0);
+    color: rgb(237, 38, 255);
+}
+
+button{
+    padding: 10px;
+    border: 3px dashed white;
+    background-color: rgb(233, 14, 233);
+    border-radius: 100px;
+    width: 100px;
+    height: 50px
+}
+
+button:hover{
+    background-color: rgb(20, 177, 255);
+    cursor: pointer;
+    border: 3px dashed purple;
+
+}
+
+button:link{
+    color:plum;
+}
+
+footer{
+    border: 3px dashed #8b0086;
+    border-radius: 100px;
+    width: 20%;
+    height: 15%;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
